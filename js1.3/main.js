@@ -32,7 +32,7 @@ for (let i=0;i<nums.length;i++){
 
 var r = 0, g = 0, b = 0
 for (let i=1;i<=1000000;i++){
-    let x = Math.floor(Math.random()*3-0.5)
+    let x = Math.floor(Math.random()*3)
     if (x==0) {r++}
     if (x==1) {g++}
     if (x==2) {b++}
