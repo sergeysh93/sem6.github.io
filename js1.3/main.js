@@ -1,6 +1,6 @@
 var nums = [];
-for (let i=0;i<nums.length;i++){
-    nums.push(Math.round(Math.random()*40-10))
+for (let i=0;i<15;i++){
+    nums.push(Math.floor(Math.random()*40-10))
 }
 
 var avg1 = 0, avg2 = 0
