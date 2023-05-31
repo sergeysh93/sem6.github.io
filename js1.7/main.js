@@ -60,7 +60,7 @@ let mul = (arr) => {
     arr.sort()
 }
 
-let body = document.getElementsByTagName("body")
+let body = document.getElementById("js")
 for (i=0;i<arr.length;i++){
     let p = document.createElement("p")
     p.innerHTML=arr[i]
