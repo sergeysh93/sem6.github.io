@@ -23,7 +23,7 @@ if (count2 != 0){
     avg2 /= count2
 }
 
-alert(avg1, avg2)
+alert(avg1+" "+avg2)
 
 
 for (let i=0;i<nums.length;i++){
@@ -38,4 +38,4 @@ for (let i=1;i<=1000000;i++){
     if (x==2) {b++}
 }
 
-alert(r,g,b)
+alert(r+" "+g+" "+b)
