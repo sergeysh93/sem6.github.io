@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Non-Ordered</h1>
+    <ul id = "noorder">
+
+    </ul>
+    <h1>Ordered</h1>
+    <ol id = "order">
+
+    </ol>
+    
+<script>
+    let e = document.getElementById("noorder")
+    let names = ["Aname", "Fname", "Bname", "Iname", "Gname", "Cname", "Dname", "Ename", "Hname", "Jname"]
+    for (let i=0; i < names.length; i++){
+        let p = document.createElement("li")
+        p.innerHTML = names[i] + ' ' + (i+1).toString()
+        e.appendChild(p)
+    }
+    names.sort()
+    e = document.getElementById("order")
+    for (let i=0; i < names.length; i++){
+        let p = document.createElement("li")
+        p.innerHTML = names[i] + ' ' + (i+1).toString()
+        e.appendChild(p)
+    }
+</script>
+</body>
+<footer>
+    <a href="../">BACK</a>
+</footer>
+</html>

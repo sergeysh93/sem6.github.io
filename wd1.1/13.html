@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div id="box">
+
+    </div>
+<script>
+    const body = document.getElementById("box")
+    for (let i=1; i <= 20; i++){
+        const p = document.createElement("p")
+        p.innerHTML = i + '<sup>2</sup>=' + i**2
+        body.appendChild(p)
+    }
+</script>
+</body>
+<footer>
+    <a href="../">BACK</a>
+</footer>
+</html>
