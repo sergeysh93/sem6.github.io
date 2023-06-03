@@ -7,14 +7,14 @@ let client = {
 const number = +prompt('Загадайте цифру до 9', '');
 
 switch(number){
-  case "1":
+  case 1:
     alert('Вы ввели число 1');
     break
-  case "2":
+  case 2:
     alert('Вы ввели число 2');
     break
-  case "8":
-  case "9":
+  case 8:
+  case 9:
     alert('Вы ввели число 8, а может и 9');
     break
 }
