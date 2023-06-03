@@ -9,7 +9,9 @@ class ExampleComp extends React.Component {
   }
 
   render() {
-    return '<div><h3>Hi</h3></div>';
+    return <div>
+      <h1>Hi!</h1>
+    </div>;
   }
 }
 
