@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sem6.github.io/js4.13/build/static/css/main.7d958b19.css",
+    "main.js": "/sem6.github.io/js4.13/build/static/js/main.18987e70.js",
+    "static/js/787.74aed56a.chunk.js": "/sem6.github.io/js4.13/build/static/js/787.74aed56a.chunk.js",
+    "index.html": "/sem6.github.io/js4.13/build/index.html",
+    "main.7d958b19.css.map": "/sem6.github.io/js4.13/build/static/css/main.7d958b19.css.map",
+    "main.18987e70.js.map": "/sem6.github.io/js4.13/build/static/js/main.18987e70.js.map",
+    "787.74aed56a.chunk.js.map": "/sem6.github.io/js4.13/build/static/js/787.74aed56a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d958b19.css",
+    "static/js/main.18987e70.js"
+  ]
+}
