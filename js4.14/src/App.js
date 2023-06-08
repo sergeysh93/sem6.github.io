@@ -3,7 +3,7 @@ import React from "react"
 class App extends React.Component {
     constructor() {
         super()
-        this.array = ["Привет! Жду Тебя дома", "Пойдем кататься на скейтах", "Когда в кино?"]
+        this.array = ["Сообщение1", "Сообщение2", "Сообщение3", "Сообщение4", "Сообщение5", "Сообщение6" ]
         this.state = {
             isLoggedIn: false
         }
