@@ -1,7 +1,8 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://shsergey93.github.io/sem6.github.io/js4.12/app/build/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
